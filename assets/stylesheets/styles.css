@@ -25,10 +25,10 @@ h1{
 
 /* Defining each sectino background and styles 
 * --------------------------------------- */
-#dive_in{
+/* #dive_in{
     background-image: url(../images/Dive_In.jpg);
     padding: 6% 0 0 0;
-}
+} 
 #writer{
     background-image: url(../images/Correspondence.jpg);
     padding: 6% 0 0 0;
@@ -52,7 +52,5 @@ h1{
 #yuma{
     background-image: url(../images/yuma.jpg);
     padding: 6% 0 0 0;
-}
-#section3 h1{
-    color: #000;
-}
+}*/
+
