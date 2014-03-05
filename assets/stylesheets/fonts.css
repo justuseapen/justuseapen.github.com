@@ -1,0 +1,15 @@
+/*
+    Document   : assets/stylesheets/fonts.css
+    Created on : 2014-03-05 04:20 PM
+    Author     : justuseapen
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bitter-Regular'), url(https://themes.googleusercontent.com/static/fonts/bitter/v5/SHIcXhdd5RknatSgOzyEkA.woff) format('woff');
+}

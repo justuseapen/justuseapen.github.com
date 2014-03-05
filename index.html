@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
+    
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
     <title>I Am Justus</title>
     <meta name="author" content="Justus" />
@@ -10,13 +12,12 @@
 
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css" />
-
-    <!--[if IE]>
-      <script type="text/javascript">
-         var console = { log: function() {} };
-      </script>
-    <![endif]-->
-
+    <link rel="stylesheet" href="assets/stylesheets/foundation/normalize.css">
+    <link rel="stylesheet" href="assets/stylesheets/foundation/foundation.css">
+    
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/fonts.css" />
+    
+    
     <script src="libs/jquery.min.js"></script>
     <script src="libs/jquery-ui.min.js"></script>
       
@@ -28,26 +29,55 @@
         });
       });
     </script>
+    <script src="libs/jquery.backstretch.min.js"></script>
+
 
   </head>
   <body>
 
-    <div class="section active" id="dive_in">
+    <div class="section" id="dive_in">
       
+      <h1>
+        Hi. I'm Justus. 
+        <span style="color:#FFCE3B">
+          Dive in.
+        <br />
+        &darr;
+        </span>
+      </h1>
     </div>
+    
     <div class="section" id="writer">
       
-    </div>
-    <div class="section" id="architect_engineer">
+      <div class="small-10 large-4 columns" id="i_write">
+        <h3>
+          <span style="color:#245B91">I am,</span><br /> and always have been, a writer.<br /><br /> Now,<br /> I write <span style="color:#912424">code.</span>
+        </h3>
+      </div>
       
+    
     </div>
+    
     <div class="section" id="love_rails">
-      
+      <h1 id="loving_rails">I especially love <span id="rails">Rails</span></h1>
     </div>
+    
     <div class="section" id="learn_all_things">
-      
+      <h2 id="frontiersman">
+        But, I'm also a frontiersman,
+      </h2>
+      <h2 id="territories">
+        looking to chart new territories.
+      </h2>
     </div>
+    
     <div class="section" id="built_together">
+      <h2 id="build">
+        Let's build something together,
+      </h2>
+      <h2 id="hire">
+        <a href="#" style="color:#FFBE4D" id="hire_me">Hire me</a>
+      </h2>
       
     </div>
     <div class="section" id="yuma">
@@ -55,13 +85,11 @@
     </div>
     
     <script>$("#dive_in").backstretch("assets/images/Dive_In.jpg");</script>
-    <script>$("#architect_engineer").backstretch("assets/images/Architect.jpg");</script>
     <script>$("#writer").backstretch("assets/images/Correspondence.jpg");</script>
     <script>$("#love_rails").backstretch("assets/images/Rails_Expert.jpg");</script>
     <script>$("#learn_all_things").backstretch("assets/images/Rodeo.jpg");</script>
     <script>$("#built_together").backstretch("assets/images/build_something.jpg");</script>
     <script>$("#yuma").backstretch("assets/images/yuma.jpg");</script>
     
-    <script src="libs/jquery.backstretch.min.js"></script>
   </body>
 </html>
