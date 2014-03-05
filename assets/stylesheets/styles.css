@@ -1,0 +1,58 @@
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+}
+h1{
+	font-size: 5em;	
+	font-family: arial,helvetica;
+}
+.section{
+	text-align:center;
+}
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+#dive_in,
+#writer,
+#architect_engineer,
+#love_rails,
+#learn_all_things,
+#built_together,
+#yuma{
+    background-size: cover;
+}
+
+/* Defining each sectino background and styles 
+* --------------------------------------- */
+#dive_in{
+    background-image: url(../images/Dive_In.jpg);
+    padding: 6% 0 0 0;
+}
+#writer{
+    background-image: url(../images/Correspondence.jpg);
+    padding: 6% 0 0 0;
+}
+#architect_engineer{
+    background-image: url(../images/Architect.jpg);
+    padding: 6% 0 0 0;
+}
+#love_rails{
+    background-image: url(../images/Rails_Expert.jpg);
+    padding: 6% 0 0 0;
+}
+#learn_all_things{
+    background-image: url(../images/Rodeo.jpg);
+    padding: 6% 0 0 0;
+}
+#built_together{
+    background-image: url(../images/build_something.jpg);
+    padding: 6% 0 0 0;
+}
+#yuma{
+    background-image: url(../images/yuma.jpg);
+    padding: 6% 0 0 0;
+}
+#section3 h1{
+    color: #000;
+}

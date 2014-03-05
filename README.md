@@ -1,4 +1,2 @@
-# Hello world!
-
-This is a placeholder README file for your project. Update it with information about your project,
-so others can find out more.
+#I Am Justus
+This is the source code of my personal site. Stay Golden.

@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Welcome</title>
-    </head>
-    <body>
-        <p>Hello world!</p>
-    </body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+    <title>I Am Justus</title>
+    <meta name="author" content="Justus" />
+    <meta name="description" content="The personal site of Justus Daniel Eapen Jr." />
+    <meta name="keywords"  content="Web Developer, Web Design, Rails, Software" />
+    <meta name="Resource-type" content="Document" />
+
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css" />
+
+    <!--[if IE]>
+      <script type="text/javascript">
+         var console = { log: function() {} };
+      </script>
+    <![endif]-->
+
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/jquery-ui.min.js"></script>	
+
+    <script type="text/javascript" src="libs/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $.fn.fullpage({
+//           anchors: ['diveIn', 'writer', 'architectEngineer', 'loveRails', 'learnAllThings', 'builtTogether', 'yuma']
+        });
+      });
+    </script>
+
+  </head>
+  <body>
+
+  <div class="section active" id="dive_in"><h1></h1></div>
+  <div class="section" id="writer"></div>
+  <div class="section" id="architect_engineer"></div>
+  <div class="section" id="love_rails"></div>
+  <div class="section" id="learn_all_things"></div>
+  <div class="section" id="built_together"></div>
+  <div class="section" id="yuma"></div>
+
+  </body>
 </html>
