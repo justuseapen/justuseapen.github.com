@@ -1,68 +1,69 @@
-.section{
+h1 {
+  font-size: 7em;
+}
+
+h3 {
+ color: white; 
+}
+
+.startUps {
+  text-decoration: none;
+}
+
+.primary {
+  color: #FF8287;
+}
+
+.secondary {
+  color: #CC82FF;
+}
+
+.section {
 	text-align:center;
 }
-#i_write{
+#i_write {
   float: right;
   margin: 3.4%;
 }
-#rails{
+#rails {
   color: #F20000;
 }
-#loving_rails{
+#loving_rails {
   margin-bottom: 34%;
   margin-right: 7%;
   padding-top: 7px;
   float: right;
   -webkit-transform: rotate(-16deg)
 }
-#frontiersman{
+#frontiersman {
   float:left;
   padding-bottom: 19%;
   margin-left: 1em;
 }
-#territories{
+#territories {
   float:right;
   padding-top: 7%;
   padding-right: 1em;
 }
-#build{
+#build {
   padding-bottom: 19%;
   margin-left: 1em;
 }
-#hire{
-  padding-top: 7%;
-  padding-right: 1em;
+#hire {
+  font-size:8em;
   color:#FFBE4D;
 }
 
 
 /* */ Defining each section styles 
 * --------------------------------------- */
-#dive_in{
+#dive_in {
   color: white;
   font-family: 'Bitter', serif;
   font-size: 6em;
 }
-#writer{
+#writer {
  color: white;
  font-size:2em;
  text-align:right;
 }
-/*
-#love_rails{
-    background-image: url(../images/Rails_Expert.jpg);
-    padding: 6% 0 0 0;
-}
-#learn_all_things{
-    background-image: url(../images/Rodeo.jpg);
-    padding: 6% 0 0 0;
-}
-#built_together{
-    background-image: url(../images/build_something.jpg);
-    padding: 6% 0 0 0;
-}
-#yuma{
-    background-image: url(../images/yuma.jpg);
-    padding: 6% 0 0 0;
-}*/
-
