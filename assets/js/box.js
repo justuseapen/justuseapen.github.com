@@ -1,13 +1,9 @@
-var e = document.getElementById('pavlok');
-e.onmouseover = function() {
-  document.getElementById('popup').style.display = 'block';
-}
-e.onmouseout = function() {
-  document.getElementById('popup').style.display = 'none';
-}
+$(function(){
+	var trigger = $('.box-trigger')
 
-$(".popout").mouseover(function() {
-    $(this).children(".box").show();
-}).mouseout(function() {
-    $(this).children(".box").hide();
-});
+	$(".box-trigger").mouseover(function() {
+	    $(this).children("div.box").show();
+	}).mouseout(function() {
+	    $(this).children(".box").hide();
+	});
+})

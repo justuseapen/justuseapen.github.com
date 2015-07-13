@@ -7,21 +7,37 @@
 /* BOXES CSS */
 /* *** */
 
-.popout {
+.box-trigger {
   background-color: rgba(255,255,255,.1);
   margin: 1px;
+  padding-top: .5em;
+  padding-bottom: .1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
-.popout:hover {
-  background-color: rgba(255,255,255,.2);
-  height: 4em;
+.box-trigger:hover {
+  background-color: rgba(255,255,255,.25);
+  height: auto;
 }
 
-.popout:hover .box {
-  display: block;
-  height: 4em;
+.box {
+  color: white;
+  font-weight: 100;
 }
 
+.box a {
+  text-decoration: none;
+}
+
+.detail {
+  font-style: italic;
+  font-size: .8em;
+}
+
+#city_lights a {
+  text-decoration: none;
+}
 
 h1 {
   font-size: 7em;
@@ -29,10 +45,6 @@ h1 {
 
 h3 {
  color: white; 
-}
-
-.startUps {
-  text-decoration: none;
 }
 
 .primary {
