@@ -1,3 +1,28 @@
+.icon {
+  height:1em;
+  width: auto;
+}
+
+/* *** */
+/* BOXES CSS */
+/* *** */
+
+.popout {
+  background-color: rgba(255,255,255,.1);
+  margin: 1px;
+}
+
+.popout:hover {
+  background-color: rgba(255,255,255,.2);
+  height: 4em;
+}
+
+.popout:hover .box {
+  display: block;
+  height: 4em;
+}
+
+
 h1 {
   font-size: 7em;
 }
@@ -11,11 +36,15 @@ h3 {
 }
 
 .primary {
-  color: #FF8287;
+  color: #D3352A;
 }
 
 .secondary {
   color: #CC82FF;
+}
+
+#slogan {
+  font-size: 3em;
 }
 
 .section {

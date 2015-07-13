@@ -30,35 +30,56 @@
       });
     </script>
     <script src="libs/jquery.backstretch.min.js"></script>
+    <script src="assets/js/box.js"></script>
 
 
   </head>
   <body>
-
+  <!-- *** -->
+  <!-- ABOVE THE FOLD -->
+  <!-- *** -->
     <div class="section" id="justus">
       
       <h1>
-        Hi. I'm <span class="primary">Justus</span>.
+        I'm <span class="primary">Justus</span>.
       </h1>
-      <h3>and I'm looking to <span class="secondary">make new friends.</span>  &darr;</h2>
+      <h3 id="slogan"><span class="secondary">I make software</span>.On time, and on budget.  <span class="secondary">&darr;</span></h2>
     </div>
-    
+
+    <!-- *** -->
+    <!-- EXPERIENCE AND ACCOMPLISHMENTS -->
+    <!-- *** -->
+
     <div class="section" id="city_lights">
-      
       <div class="small-10 large-4 columns" id="i_write">
         <h3>
           I work with startups in Boston:
           <div class="startUps">
-            <div>
+            <div id="pavlok" class="popout">
+              <img class="icon"src='assets/images/pavlok-icon.svg'/>
               <a class="primary" href="http://pavlok.com">Pavlok</a>
+              <div class="box" style="display: none">
+                <ul>
+                  <li>Head of Software Product</li>
+                  <li>Built and lead software department from product conception to launch</li>
+                  <li>Delivered 1 Ruby API, 3 Mobile Apps, countless proof-of-concepts and prototypes <!-- (LINK TO APP STORE) --></li>
+                  <li></li>
+                </ul>
+              </div>
             </div>
-            <div>
-              <a class="secondary" href="http://fsharex.com">FSHAREX</a>
+            <div id="fsharex" class="popout">
+              <img class="icon" src="assets/images/fsharex-icon.svg">
+              <a class="secondary" href="http://fsharex.com">FSHAREX </a>
+              <div class="box" style="display: none">some text here</div>
             </div>
-            <div>
+            <div id="resilient" class="popout">
+              <img class="icon" src="assets/images/resilient-icon.svg">
               <a class="primary"  href="https://resilientcoders.org">Resilient Coders</a>
+              <div class="box" style="display: none">some text here</div>
             </div>
-            <div>
+            <div id="launch" class="popout">
+            <img class="icon" src="assets/images/launch-icon.svg">
+              <div class="box" style="display: none">some text here</div>
               <a class="secondary" href="https://launchacademy.com">Launch Academy</a>
             </div>
           </ul>
@@ -66,13 +87,19 @@
         <h3>
         </h3>
       </div>
-      
-    
     </div>
+
+    <!-- *** -->
+    <!-- SKILLS AND EXPERTISE -->
+    <!-- *** -->
     
     <div class="section" id="love_rails">
       <h1 id="loving_rails">I like <span id="rails">Ruby on Rails</span></h1>
     </div>
+
+    <!-- *** -->
+    <!-- WHAT'S NEXT? -->
+    <!-- *** -->
     
     <div class="section" id="learn_all_things">
       <h2 id="frontiersman">
