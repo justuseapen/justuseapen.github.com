@@ -1,3 +1,13 @@
+/* *** */
+/* TEXT CSS */
+/* *** */
+
+.title-box {
+  background-color: rgba(5,5,5,.3); 
+}
+
+
+
 .icon {
   height:1em;
   width: auto;
@@ -41,18 +51,27 @@
 
 h1 {
   font-size: 7em;
+  font-weight: 200;
+  color: white;
+}
+
+h2 {
+  color: white;
 }
 
 h3 {
  color: white; 
+ font-weight: 200;
 }
 
 .primary {
   color: #D3352A;
+  font-weight: 600;
 }
 
 .secondary {
   color: #CC82FF;
+  font-weight: 600;
 }
 
 #slogan {
@@ -68,13 +87,6 @@ h3 {
 }
 #rails {
   color: #F20000;
-}
-#loving_rails {
-  margin-bottom: 34%;
-  margin-right: 7%;
-  padding-top: 7px;
-  float: right;
-  -webkit-transform: rotate(-16deg)
 }
 #frontiersman {
   float:left;
@@ -96,15 +108,31 @@ h3 {
 }
 
 
-/* */ Defining each section styles 
-* --------------------------------------- */
+/* *** */
+/* SECTION STYLES */
+/* *** */
+
+
 #dive_in {
   color: white;
   font-family: 'Bitter', serif;
   font-size: 6em;
 }
+
 #writer {
- color: white;
- font-size:2em;
- text-align:right;
+  color: white;
+  font-size:2em;
+  text-align:right;
 }
+
+#love_rails p {
+  text-align: left;
+  color: white;
+}
+
+#love_rails .creed{
+  height: auto;
+  background-color: rgba(27, 27, 27, 0.82);
+}
+
+.creed .primary

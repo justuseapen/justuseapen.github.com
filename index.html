@@ -11,7 +11,7 @@
     <meta name="Resource-type" content="Document" />
 
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/jquery.fullPage.css" />
-    <link rel="stylesheet" href="assets/stylesheets/foundation/normalize.css">
+    <link rel="stylesheet" href="assets/stylesheets/frfoundation/normalize.css">
     <link rel="stylesheet" href="assets/stylesheets/foundation/foundation.css">
     
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/fonts.css" />
@@ -39,10 +39,11 @@
   <!-- ABOVE THE FOLD -->
   <!-- *** -->
     <div class="section" id="justus">
-      
-      <h1>
-        I'm <span class="primary">Justus</span>.
-      </h1>
+      <div class="title-box">
+        <h1>
+          I'm <span class="primary">Justus</span>.
+        </h1>
+      </div>
       <h3 id="slogan"><span class="secondary">I make software</span>.On time, and on budget.  <span class="secondary">&darr;</span></h2>
     </div>
 
@@ -113,7 +114,20 @@
     <!-- *** -->
     
     <div class="section" id="love_rails">
-      <h1 id="loving_rails">I like <span id="rails">Ruby on Rails</span></h1>
+      <div class="creed small-5 large-3 columns">
+        <h3 class="primary">The Creed</h3>
+
+        <p>I like <span class="primary">rapid prototyping</span>. Ruby on Rails to move fast on the backend. Javascript, scss, jquery, and bootstrap on the frontend.</p>
+
+        <p><span class="primary">I build API</span>'s with oauth2 consumption AND provisioning. I’ve used sidekiq for jobs and doorkeeper and devise and I’m constantly sandboxing and I’m glad Heroku exists.</p>
+
+        <p>I love a <span class="primary">good design</span>, and I’d be happy to do one myself.</p>
+
+        <p>I’m a hacker at heart. I move fast because I want to <span class="primary">learn fast</span>. That means we make mistakes and that means we stay agile.</p>
+
+        <h4><span class="primary">Full Stack.</span></h4>
+      </div>
+
     </div>
 
     <!-- *** -->
@@ -121,12 +135,19 @@
     <!-- *** -->
     
     <div class="section" id="learn_all_things">
-      <h2 id="frontiersman">
-        But, I'm also a <span class="primary">frontiersman</span>,
-      </h2>
-      <h2 id="territories">
-        looking to chart new <span class="secondary" >territories</span>.
-      </h2>
+      
+      <div class="title-box">
+        <h2 id="frontiersman">
+          I'm a <span class="primary">frontiersman</span>,
+        </h2>
+      </div>
+
+      <div class="subtitle">
+        <h2 id="territories">
+          looking to chart new <span class="secondary" >territories</span>.
+        </h2>
+      </div>
+
     </div>
     
     <div class="section" id="built_together">
@@ -141,9 +162,8 @@
     
     <script>$("#justus").backstretch("assets/images/speaking_at_fsharex.jpg");</script>
     <script>$("#city_lights").backstretch("assets/images/city_lights.jpg");</script>
-    <script>$("#writer").backstretch("assets/images/Correspondence.jpg");</script>
-    <script>$("#love_rails").backstretch("assets/images/Rails_Expert.jpg");</script>
     <script>$("#learn_all_things").backstretch("assets/images/friendship7.jpg");</script>
+    <script>$("#love_rails").backstretch("assets/images/Urbanism.jpg");</script>
     <script>$("#built_together").backstretch("assets/images/build_something.jpg");</script>
     <script>$("#yuma").backstretch("assets/images/yuma.jpg");</script>
     
