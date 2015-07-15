@@ -17,10 +17,28 @@ h3 {
  font-weight: 200;
 }
 
-.title-box {
-  background-color: rgba(5,5,5,.3); 
+.detail {
+  font-style: italic;
+  font-size: .8em;
 }
 
+.primary {
+  color: #FF5353;
+  font-weight: 600;
+}
+
+.secondary {
+  color: #CC82FF;
+  font-weight: 600;
+}
+
+
+/* Default to centered text*/
+.section {
+  text-align:center;
+}
+
+/* Tiny icons */
 .icon {
   height:1em;
   width: auto;
@@ -53,53 +71,55 @@ h3 {
   text-decoration: none;
 }
 
-.detail {
-  font-style: italic;
-  font-size: .8em;
-}
-
-#city_lights a {
-  text-decoration: none;
-}
-
-.primary {
-  color: #F7AECC;
-  font-weight: 600;
-}
-
-.secondary {
-  color: #CC82FF;
-  font-weight: 600;
-}
-
-#slogan {
-  font-size: 2em;
-  background-color: rgba(5, 5, 5, 0.5);
-}
-
-.section {
-	text-align:center;
-}
-
-#territories {
-  float:right;
-  padding-top: 7%;
-  padding-right: 1em;
-}
-#build {
-  padding-bottom: 19%;
-  margin-left: 1em;
-}
-#hire {
-  font-size:8em;
-  color:#FFBE4D;
-}
-
-
 /* *** */
 /* SECTION STYLES */
 /* *** */
 
+/* ABOVE-THE-FOLD */
+
+#justus .tableCell {
+  display: block;
+}
+
+.top-bar {
+  background-color: black;
+  width: 100%;
+  height: 4em;
+  top: 0;
+}
+
+.top-bar .button {
+  height:100%;
+  color: white;
+  float: right;
+  line-height: 1;
+  padding-top: 2em;
+  padding-right: 2em;
+  font-weight: 100;
+}
+
+.title-box {
+  text-align: left;
+  margin-left: 2em;
+  position: fixed;
+  bottom: 0;
+  line-height: 0.3;
+}
+
+.title-box .primary {
+  background-color: white;
+  padding-left: 0.1em;
+  padding-right: .1em;
+}
+
+#slogan {
+  font-size: 2em;
+}
+
+/* ACCOMPLISHMENTS + EXPERIENCE */
+#city_lights a {
+  text-decoration: none;
+}
 
 .startUps h3 {
   font-size: 1.5em;
@@ -108,6 +128,8 @@ h3 {
 #accomplishments {
   float: right;
 }
+
+/* THE CREED */
 
 #love_rails .creed {
   height: 100%;
@@ -131,16 +153,35 @@ h3 {
   font-size: 2em;
 }
 
+/* TESTIMONIALS */
+
 .testimonials {
   width: 100%;
   display: inline-block;
+  color: white;
 }
 
 .testimonial-block {
-  display: inline-block;
+  width: 30%;
+  background-color: rgba(5,5,5,.5);
+  padding: 1em;
+  float:left;
+}
+
+.quote {
+  font-weight: 100;
+  font-style: italic;
+  font-size: .75em;
 }
 
 .portrait {
   width: 170px;
   height: 130px;
+}
+
+
+/* HIRE ME */
+#hire {
+  font-size:8em;
+  color:#FFBE4D;
 }
