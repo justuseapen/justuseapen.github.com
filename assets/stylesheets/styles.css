@@ -129,6 +129,16 @@ h3 {
   float: right;
 }
 
+#resilient a {
+  color: white;
+  font-weight: 100
+}
+
+#tugg {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
 /* THE CREED */
 
 #love_rails .creed {
